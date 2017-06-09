@@ -10,12 +10,12 @@
 
 rey = User.create(
 	name: 'Rey', 
-	age: '42',
+	age: '42'
 	)
 
 dan = User.create(
 	name: 'Dan', 
-	age: '30',
+	age: '30'
 	)
 
 
@@ -26,19 +26,24 @@ dan = User.create(
 tacoma = Car.create(
 	model: 'Tacoma', 
 	make: 'Toyota',
+	user_id: 1
 	)
 
 wrangler = Car.create(
 	model: 'Wrangler', 
 	make: 'Jeep',
+	user_id: 2
 	)
 
 wrx = Car.create(
 	model: 'WRX STI', 
 	make: 'Subaru',
+	user_id: 1
 	)
 
-90D = Car.create(
+tesla = Car.create(
 	model: '90D', 
 	make: 'Tesla',
+	user_id: 2
 	)
+
