@@ -1,3 +1,3 @@
 class Car < ApplicationRecord
-	belongs_to :People
+	belongs_to :user
 end
